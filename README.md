@@ -63,10 +63,17 @@ else:
 Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. 
 La función debe recibir una lista de enteros y retornar solo aquellos que sean primos.
 
+### Punto 3
+Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. 
+La función debe recibir una lista de enteros y retornar solo aquellos que sean primos.
+
 ```python
+Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. 
+La función debe recibir una lista de enteros y retornar solo aquellos que sean primos.
+
 def numeros_primos(lista) -> list:
     lista_primos=[]
-    #
+    
     for n in lista:
         if n < 2:
             continue
@@ -78,16 +85,16 @@ def numeros_primos(lista) -> list:
     return lista_primos
 
 
-   for n in range(cantidad_num):
+if __name__ == "__main__":
+    lista_num=[]
+    cantidad_num=int(input("De la cantidad de numeros que va a ingresar"))
+    for n in range(cantidad_num):
         dato = int(input("Ingresa un dato"))
         lista_num.append(dato)
         
     primos=numeros_primos(lista_num)
     print(primos)
 
-if __name__ == "__main__":
-    lista_num=[]
-    cantidad_num=int(input("De la cantidad de numeros que va a ingresar"))
 ```
 
 ### Punto 4
